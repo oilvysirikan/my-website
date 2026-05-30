@@ -1,0 +1,17 @@
+name = "signcraft-studio"
+compatibility_date = "2026-05-24"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "signcraft-db"
+database_id = "20bb0374-d91f-4d09-b9ac-c7963dc5d7ba"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "signcraft-images"
+
+[vars]
+ADMIN_USERNAME = "admin"
+# Set ADMIN_PASSWORD_HASH via: wrangler secret put ADMIN_PASSWORD_HASH
+# Set JWT_SECRET via: wrangler secret put JWT_SECRET
